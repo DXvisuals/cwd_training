@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Topic</title>
+    <style>
+ 
+        .item{
+            background:rgb(228, 200, 200);
+            padding: 20px;
+            margin:2px;
+            border: 1px solid #000;
+            /* /* flex: 1; */
+        }
+        /* .item-1{
+            flex: 2;
+        }
+        .item-2{
+            flex: 3;
+        }
+
+        .item-4 {
+            flex: 5.2;
+        } */ */
+
+        #container{
+            display:flex;
+            /* change items directions */
+ 
+ 
+            /* wrap method */
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            align-items:center;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div class="item item-1">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, aut!</p>
+        </div>
+</body>
+</html>
